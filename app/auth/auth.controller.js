@@ -5,7 +5,7 @@ angular.module('angularfireSlackApp')
         authCtrl.user = {
             email: '',
             password: ''
-        }
+        };
 
         authCtrl.login = function()
         {
@@ -29,5 +29,5 @@ angular.module('angularfireSlackApp')
             {
                 authCtrl.error = error;
             });
-        }
+        };
     });
