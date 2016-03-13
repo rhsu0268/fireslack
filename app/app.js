@@ -111,7 +111,7 @@ angular
 
         url: '/create',
         templateUrl: 'channels/create.html',
-        controller: 'ChannelCtrl as channelsCtrl'
+        controller: 'ChannelsCtrl as channelsCtrl'
 
     });
 
